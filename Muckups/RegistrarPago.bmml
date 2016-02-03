@@ -1,0 +1,125 @@
+<mockup version="1.0" skin="sketch" measuredW="1023" measuredH="851" mockupW="750" mockupH="813">
+  <controls>
+    <control controlID="30" controlTypeID="__group__" x="263" y="28" w="-1" h="-1" measuredW="750" measuredH="813" zOrder="0" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="0" y="0" w="750" h="813" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="30">
+          <controlProperties>
+            <text>A%20Web%20Page%0Ahttp%3A//</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="__group__" x="194" y="95" w="-1" h="-1" measuredW="256" measuredH="73" zOrder="1" locked="false" isInGroup="30">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="256" measuredH="41" zOrder="0" locked="false" isInGroup="1">
+              <controlProperties>
+                <size>28</size>
+                <text>NOMBRE%20USUARIO</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="98" y="41" w="-1" h="-1" measuredW="65" measuredH="32" zOrder="1" locked="false" isInGroup="1">
+              <controlProperties>
+                <size>20</size>
+                <text>Dealer</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="15" y="224" w="68" h="23" measuredW="50" measuredH="23" zOrder="2" locked="false" isInGroup="30">
+          <controlProperties>
+            <text>Usuario</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="15" y="201" w="68" h="23" measuredW="53" measuredH="23" zOrder="3" locked="false" isInGroup="30">
+          <controlProperties>
+            <text>Servicio</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::ComboBox" x="83" y="200" w="263" h="-1" measuredW="86" measuredH="23" zOrder="4" locked="false" isInGroup="30">
+          <controlProperties>
+            <text>Servicios</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::TextInput" x="83" y="221" w="263" h="-1" measuredW="130" measuredH="27" zOrder="5" locked="false" isInGroup="30">
+          <controlProperties>
+            <text>Usuario%20de%20servicio</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Button" x="273" y="262" w="-1" h="-1" measuredW="73" measuredH="28" zOrder="6" locked="false" isInGroup="30">
+          <controlProperties>
+            <text>Agregar</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="__group__" x="15" y="170" w="-1" h="-1" measuredW="720" measuredH="27" zOrder="7" locked="false" isInGroup="30">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="131" measuredH="27" zOrder="0" locked="false" isInGroup="7">
+              <controlProperties>
+                <size>16</size>
+                <text>Agregar%20Servicio</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="146" y="10" w="574" h="-1" measuredW="100" measuredH="5" zOrder="1" locked="false" isInGroup="7"/>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="8" controlTypeID="__group__" x="15" y="305" w="-1" h="-1" measuredW="720" measuredH="27" zOrder="8" locked="false" isInGroup="30">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="156" measuredH="27" zOrder="0" locked="false" isInGroup="8">
+              <controlProperties>
+                <size>16</size>
+                <text>Servicios%20agregados</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="156" y="10" w="564" h="-1" measuredW="100" measuredH="5" zOrder="1" locked="false" isInGroup="8"/>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="13" controlTypeID="__group__" x="15" y="470" w="-1" h="-1" measuredW="720" measuredH="27" zOrder="10" locked="false" isInGroup="30">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="115" measuredH="27" zOrder="0" locked="false" isInGroup="13">
+              <controlProperties>
+                <size>16</size>
+                <text>Agregar%20Ticket</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="146" y="10" w="574" h="-1" measuredW="100" measuredH="5" zOrder="1" locked="false" isInGroup="13"/>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="14" controlTypeID="com.balsamiq.mockups::Image" x="15" y="512" w="720" h="211" measuredW="77" measuredH="79" zOrder="11" locked="false" isInGroup="30">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="15" controlTypeID="com.balsamiq.mockups::Button" x="327" y="738" w="-1" h="-1" measuredW="95" measuredH="34" zOrder="12" locked="false" isInGroup="30">
+          <controlProperties>
+            <size>20</size>
+            <text>Aceptar</text>
+          </controlProperties>
+        </control>
+        <control controlID="16" controlTypeID="__group__" x="15" y="347" w="-1" h="-1" measuredW="331" measuredH="108" zOrder="9" locked="false" isInGroup="30">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::TextInput" x="0" y="0" w="331" h="-1" measuredW="156" measuredH="27" zOrder="0" locked="false" isInGroup="16">
+              <controlProperties>
+                <text>Servicio%201%20-%20Usuario123</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::TextInput" x="0" y="27" w="331" h="-1" measuredW="155" measuredH="27" zOrder="1" locked="false" isInGroup="16">
+              <controlProperties>
+                <color>40463</color>
+                <text>Servicio%201%20-%20Usuario124</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::TextInput" x="0" y="54" w="331" h="-1" measuredW="158" measuredH="27" zOrder="2" locked="false" isInGroup="16">
+              <controlProperties>
+                <color>13369344</color>
+                <text>Servicio%202%20-%20Usuario123</text>
+              </controlProperties>
+            </control>
+            <control controlID="3" controlTypeID="com.balsamiq.mockups::TextInput" x="0" y="81" w="331" h="-1" measuredW="158" measuredH="27" zOrder="3" locked="false" isInGroup="16">
+              <controlProperties>
+                <color>13421772</color>
+                <text>Servicio%203%20-%20Usuario123</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>

@@ -1,0 +1,52 @@
+.titulo1 {
+	color: blue;
+	font-size: 250%;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+.titulo2 {
+	color: #000099;
+	font-size: 150%
+}
+
+fieldset {
+	border: 1px groove;
+}
+
+legend {
+	font-family: "Lucida Console", verdana;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;    
+    padding: 8px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+button:hover {
+	background-color: gray;
+	color: white;
+}
+
+button.disabled {
+	border: 2px solid red;
+	cursor: not-allowed;
+	opacity: 0.2;
+}
+
+button.right {
+    float: right;
+}
+
+#buttonAceptar {
+	padding: 10px 30px;
+	align-self: center;
+}
