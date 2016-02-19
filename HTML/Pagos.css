@@ -1,28 +1,122 @@
+.titulo {
+    text-align: center;
+}
+
 .titulo1 {
-	color: blue;
-	font-size: 250%;
-	font-family: verdana;
+	font-family: 'Days One', sans-serif;
 	font-weight: bold;
 }
 
 .titulo2 {
-	color: #000099;
-	font-size: 150%
+    font-family: 'Scada', sans-serif;
 }
 
-fieldset {
-	border: 1px groove;
+div.dato {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-legend {
-	font-family: "Lucida Console", verdana;
+.panelHidden {
+    display: none;
+}
+
+.panelShow {
+    display: block;
+}
+
+.panelFlip {
+    font-size: 16px;
+    padding: 10px;
+    border: solid 1px gray;
+    margin: auto;
+}
+
+div.area {
+    padding-bottom: 20px;
+}
+
+.area {
+    font-family: 'Armata', sans-serif; 
+    font-size: 20px;
+}
+
+.servicio {
+    font-family: 'Orbitron', sans-serif; 
+    font-size: 20px;
+}
+
+.servicio:hover {
+    background: lightgray;
+}
+
+label.informacion {
+    font-family: 'Signika', sans-serif;
+    font-size: 20px;
+}
+
+.textVacio input[type="text"] {
+  padding: 10px;
+  border: solid 1px gainsboro;
+  -webkit-transition: box-shadow 0.3s, border 0.3s;
+  -moz-transition: box-shadow 0.3s, border 0.3s;
+  -o-transition: box-shadow 0.3s, border 0.3s;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+.textVacio input[type="text"]:focus, .style-1 input[type="text"].focus {
+  border: solid 1px #707070;
+  -webkit-box-shadow: 0 0 5px 1px #969696;
+  -moz-box-shadow: 0 0 5px 1px #969696;
+  box-shadow: 0 0 5px 1px #969696;
+}
+
+.textInput {
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.textInput:focus {
+    background: lightgray;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/* lists */
+ul.input-list {
+  list-style-type: none;
+  margin: 0 -10px;
+  padding: 0;
+}
+ul.input-list li {
+  display: block;
+  padding: 10px 10px;
+  width: 50%;
+}
+
+@media all and (max-width: 800px) {
+  ul.input-list {
+    margin: 0;
+  }
+  ul.input-list li {
+    padding: 0;
+    width: 100%;
+    float: none;
+    margin-bottom: 10px;
+  }
 }
 
 button {
     background-color: white;
     color: black;
     border: 2px solid #e7e7e7;    
-    padding: 8px 10px;
+    padding: 10px 10px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
@@ -36,14 +130,13 @@ button:hover {
 	color: white;
 }
 
-button.disabled {
-	border: 2px solid red;
-	cursor: not-allowed;
-	opacity: 0.2;
+p {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
-
-button.right {
-    float: right;
+p:hover {
+	background-color: gray;
+	color: white;
 }
 
 #buttonAceptar {

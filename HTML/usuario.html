@@ -2,6 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="pagos.css">
+    <link href='https://fonts.googleapis.com/css?family=Signika|Orbitron:500|Days+One|Scada:700' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <div id="divUserName" align="center">
@@ -9,29 +10,27 @@
 	<label id="labelCliente" class="titulo2">Paquita</label>
 </div>
 <br>
-<div id="divCliente">
-<div id="divClienteServicios">
-	<fieldset>
-		<legend>Servicio</legend>
-		<label>Roku TV - CODIGO123</label>
-		<label>Aplicado</label><br>
-		<label>Roku TV - CODIGO124</label>
-		<label></label><br>
-		<label>Roku TV - CODIGO125</label>
-		<label>No coincide usuario</label><br>
-	</fieldset>
+<div id="divClienteServicios" class="area">
+	<label class="area">Servicio</label>
+    <hr />
+	<label class="servicio">Roku TV - CODIGO123</label>
+	<label>Aplicado</label><br>
+	<label class="servicio">Roku TV - CODIGO124</label>
+	<label></label><br>
+	<label class="servicio">Roku TV - CODIGO125</label>
+	<label>No coincide usuario</label><br>
 </div>
 <br>
-<div id="divComprobante">
-	<fieldset>
-		<legend>Comprobante</legend>
-		<br>
-	</fieldset>
+<div id="divComprobante" class="area">
+	<label class="area">Comprobante</label>
+    <hr />
+	<br>
 </div>
 <br>
 <br>
 <div id="divSubmit" align="center">
 	<button id="buttonAceptar">Aceptar</button>
-</disv>
+    <button id="buttonCancelar">Cancelar</button>
+</div>
 </body>
 </html>

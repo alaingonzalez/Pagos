@@ -1,55 +1,87 @@
 <!doctype html>
 <html>
+
 <head>
-	<link rel="stylesheet" type="text/css" href="pagos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="pagos.css" />
+    <link href='https://fonts.googleapis.com/css?family=Signika|Orbitron:500|Days+One|Scada:700' rel='stylesheet' type='text/css'
+    />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="Pago.js"></script>
 </head>
+
 <body>
-<div id="divUserName" align="center">
-	<label id="labelUserName" class="titulo1">Paquita</label><br>
-	<label id="labelVendedor" class="titulo2">Leo</label>
-</div>
-<br>
-<div id="divAddService">
-	<fieldset>
-		<legend>Agregar servicio</legend>
-		<label id="labelServicio">Servicio<label>
-		<select id="selectServicios">
-			<option value="RokuTV">Roku TV</option>
-			<option value="ITV">ITV</option>
-			<option value="MatchTV">Match TV</option>
-		<select>
-		<br>
-		<label id="labelCuenta">Cuenta</label>
-		<input id="inputCuenta">
-		<br>
-		<button id="buttonAgregarCuentas" class="right disabled">Agregar</button>
-		<br>
-	</fieldset>
-</div>
-<br>
-<div id="divServices">
-	<fieldset>
-		<legend>Servicios registrados</legend>
-		<label id="labelCODIGO123">Roku TV - CODIGO123</label><br>
-		<label id="labelCODIGO124">Roku TV - CODIGO124</label><br>
-	</fieldset>
-</div>
-<br>
-<div id="divPicture">
-	<fieldset>
-		<legend>Ticket</legend>
-		<button class="right">Agregar</button>
-		<br>
-	</fieldset>	
-</div>
-<br>
-<div id="divComentario">
-	<label id="labelComentario">Comentario</Comentario><br>
-	<input id="inputComentario" type="textbox"/><br>
-</div>
-<br>
-<div id="divSubmit" align="center">
-	<button id="buttonAceptar">Aceptar</button>
-</div>
+
+    <!-- HEADER -->
+    <div class="container">
+        <div class="jumbotron titulo">
+            <h1 id="labelClient" class="titulo1">Paquita</h1>
+            <h3 id="labelDealer" class="titulo2">Leo</h3>
+        </div>
+    </div>
+
+    <!-- SERVICES -->
+    <div class="container" style="padding: 10px;">
+        <label class="area">Servicios</label>
+        <p class="panelFlip" data-toggle="modal" data-target="#modalServicio"><span class="glyphicon glyphicon-plus"></span>Agregar</p>
+        <!-- MODAL -->
+        <div id="modalServicio" class="modal fade" role="dialog">
+            <!-- MODAL CONTENT -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Agrega un servicio</h4>
+                </div>
+                <div class="modal-body">
+                    <ul class="input-list textVacio clearfix">
+                        <li>
+                            <select id="selectServices">
+                                <option value="MatchTV">MatchTV</option>
+                                <option value="RokuTV">RokuTV</option>
+                                <option value="ITV">ITV</option>
+                            </select>
+                        </li>
+                        <li>
+                            <input type="text" class="textVacio textInput" placeholder="Cuenta del servicio" />
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Agregar</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SERVICES LIST -->
+        <ul id="listServices">
+            <li>
+                <label id="labelServicio_123" class="servicio">Roku TV - CODIGO123</label>
+            </li>
+            <li>
+                <label id="labelServicio_234" class="servicio">Roku TV - CODIGO234</label>
+            </li>
+        </ul>
+    </div>
+
+    <!-- TICKET PICTURE -->
+    <div class="container" style="padding: 10px;">
+        <label class="area">Ticket</label>
+        <p  class="panelFlip" data-toggle="modal" data-target="#modalServicio"><span class="glyphicon glyphicon-plus"></span>Agregar</p>
+    </div>
+
+    <!-- COMENTS -->
+    <div class="container" style="padding: 10px;">
+        <label class="area">Comentarios</label>
+        <textarea id="textComentario" rows="5" class="textInput"></textarea>
+    </div>
+
+    <!-- BUTTON -->
+    <div class="container" style="text-align: center">
+        <button id="buttonAceptar">Aceptar</button>
+    </div>
+
 </body>
+
 </html>
